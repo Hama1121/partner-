@@ -34,11 +34,11 @@ client.on("message" , message => {
 
 if(message.channel.type === 'dm') {
 
-if (message.content.startsWith("https://discord.gg/")) {
+if (message.content.startsWith("https://discord.gg/qe4RJvSR")) {
     
   message.author.send(` دانرا تۆش ڕیکلامەکە بکە lera Link Dane`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("id Channel ").send(
+  client.channels.get("1152339273266253894").send(
 `> By: <@${message.author.id}> ✅ 
 ${message.content}`)
 }
@@ -57,4 +57,4 @@ client.user.setGame(`RaMa is here`)
 
 
 
-client.login("");// Token Lera Dane
+client.login("MTE1MjM0MzQyODQ5MTkxMTI1OA.GcNG1Q.DLusGQ4ugtb3exJwv5Jahq7cpqHhO_fxpSJiWY");// Token Lera Dane
